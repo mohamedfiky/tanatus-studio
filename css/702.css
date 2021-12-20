@@ -1,0 +1,724 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/************************************  My FrameWork  *************************************/
+
+/*
+    فيه مشكلة عويصة مش عارف حلها إيه , زرار ال " شو مور " بتاع ال " وورك " , لما بأدوس عليه ويزود ال 3 صور المخفيين 
+    بيروح غالبا آخد مساحة ال 3 صور دول من الطول بتاع الصفحة ,
+    " فبيخفى ال " فووتر  
+    
+    غالبا المشكلة هتبقى فى الجافا سكريبت ,
+     المشكلة فى ال نايس سكرول
+    إبقى شوف لها حل بعدين ..
+
+*/
+.container
+{
+    width:1200px;
+    margin:auto;
+}
+
+.overlay
+{
+
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    color:#fff;
+    background-color: rgba(69, 73, 73, 0.85);
+    z-index: 3;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.upper
+{
+    text-transform: uppercase;
+}
+
+.color
+{
+    color: #f7600e;
+    
+}
+
+.back
+{
+    background-color: #f7600e;
+
+}
+
+.hidden
+{
+    display:none;
+}
+
+
+/**************************************  Header  *************************************/
+
+.header
+{
+    background: url("../images/header.jpg");
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+    color:#fff;
+    height: 626px;
+    position: relative;
+
+}
+
+
+.header .nav
+{
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+.header .nav .logo
+{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.header .nav .menu
+{
+    float: right;
+    cursor: pointer;
+}
+
+.header .nav .menu i 
+{
+    margin-left: 7px;
+}
+
+.header .intro{
+    margin-top: 150px;
+}
+
+.header .intro h1
+{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.header .intro p
+{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 15px 0 30px;
+}
+
+.header .btns button
+{
+    background-color: transparent;
+    padding: 10px 0;
+    color: #fff;
+    border:1px solid #777;
+    margin:15px;
+    width:150px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.header .btns button:hover
+{
+
+    border:1px solid #f7600e;
+    background-color: #f7600e;
+}
+
+.header .intro .arrow
+{   
+    display: inline-block;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+/******************************* Features ****************************************/
+
+.feat
+{
+    padding: 70px 0 ;
+    overflow: hidden;
+}
+
+.feat .box
+{
+    float: left;
+    width:21%;
+    margin-right: 5.3333%;
+}
+
+.feat .box:last-child
+{
+    margin-right: 0;
+}
+
+.feat .box i
+{
+    color: #f7600e;
+    display: inline-block;
+    width:120px;
+    height:120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border:1px solid rgb(216, 216, 216);
+    -webkit-transition: all ease-in-out 1s;
+    -moz-transition: all ease-in-out 1s;
+    -o-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+}
+
+.feat .box i:hover
+{
+    background-color: #f7600e;
+    border:1px solid #f7600e;
+    color:#fff;
+
+}
+
+.feat .box h3
+{
+    font-weight: normal;
+    color:rgb(110, 110, 110);
+}
+
+.feat .box p
+{
+    color:rgb(136, 136, 136);
+}
+
+
+/************************************  Subscripe  *************************************/
+
+.subscripe
+{
+    background: url("../images/testi.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 100px 0 ;
+    position: relative;
+
+}
+
+.subscripe form
+{
+    line-height: 200px;
+}
+
+.subscripe form input
+{
+    width: 400px ;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    height:40px;
+}
+
+.subscripe form button
+{
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-color: #f7600e;
+    color: #fff;
+    cursor: pointer;
+}
+
+/**********************************  Our Work  *****************************************/
+
+.our-work
+{
+    padding: 60px 0;
+    color:#777;
+}
+
+.our-work h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.our-work p
+{
+    margin-bottom: 60px;
+    line-height:1.7;
+}
+ 
+
+.our-work .item-box
+{
+    overflow: hidden;
+
+
+
+}
+
+.our-work .item-box .item
+{
+    overflow: hidden;
+    float: left;
+    width: 31%;
+    margin:13px 1.16666%;
+    height:400px;
+    border-radius: 15px;
+    position: relative;
+
+
+}
+
+.our-work .item-box .item:hover .over
+{
+    display: block;
+
+
+}
+
+.our-work .item-box .item .over
+{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    color:#fff;
+    background-color: #f7600eef;
+    z-index: 3;
+    display: none;
+
+
+}
+
+.our-work .item-box .item .over h3
+{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.our-work .item-box .item .over button
+{
+    margin-top: 15px;
+    width:150px;
+    padding:10px;
+    background-color: transparent;
+    color:#fff;
+    border:1px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.our-work .item-box .item .over button:hover
+{
+
+    border:1px solid #fff;
+    background-color:#fff ;
+    color:#f7600e;
+}
+
+
+
+
+.our-work .show
+{
+    margin-top: 50px;
+    width:150px;
+    padding:10px;
+    background-color: #fff;
+    color:rgb(77, 77, 77);
+    border:1px solid #777;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+
+}
+
+
+.our-work .show:hover
+{
+
+    border:1px solid #f7600e;
+    background-color: #f7600e;
+    color:#fff;
+}
+
+/**************************** Testimonials  *******************************************/
+
+.testim
+{
+    background: url("../images/testi.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 160px 0 ;
+    position: relative;
+
+}
+
+.testim img
+{
+    display: block;
+    width:110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 50px auto 25px;
+    border: 1px solid rgb(190, 190, 190);
+    padding-top: 5px;
+
+}
+
+.testim q
+{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.testim span
+{
+    display: block;
+    margin: 20px;
+    font-size: 16px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.testim span:hover
+{
+    color:#f7600e;
+}
+
+.testim i
+{
+    cursor: pointer;
+    position: absolute;
+    top:47%;
+    color:rgb(190, 190, 190);
+    font-weight: bolder;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.testim i:hover
+{
+    color:#f7600e;
+}
+
+.testim i.left
+{
+    left: 90px;
+}
+
+.testim i.right
+{
+    right: 90px;
+}
+
+
+/******************************* Our Team  **************************************/
+
+.our-team
+{
+    padding: 60px 0;
+    color:#777;
+    overflow: hidden;
+}
+
+.our-team h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.our-team .mainP
+{
+    margin-bottom: 60px;
+    line-height:1.7;
+}
+
+.our-team .person
+{
+    float: left;
+    width: 23%;
+    margin: 30px 1px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;    
+}
+
+.our-team .person:hover
+{
+    color:#444;
+}
+
+.our-team .person:hover img
+{
+    filter: grayscale(0);
+    border-bottom:10px solid #f7600e ;
+    margin-top: -15px;
+
+}
+
+.our-team .person:hover .icofont-facebook
+{
+    background-color: #3b5998;
+}
+.our-team .person:hover .icofont-twitter
+{
+    background-color: #1da1f2;
+}
+.our-team .person:hover .icofont-google-plus
+{
+    background-color: #dd4b39;
+}
+
+ 
+.our-team .person img
+{
+    width:160px;
+    height:200px;
+    border-radius: 5px;
+    padding: 10px 10px 0;
+    background-color: rgb(170, 170, 170);
+    filter: grayscale(0.7);
+    -webkit-transition: all ease-in-out 0.7s;
+    -moz-transition: all ease-in-out 0.7s;
+    -o-transition: all ease-in-out 0.7s;
+    transition: all ease-in-out 0.7s; 
+}
+
+.our-team .person h3
+{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.our-team .person .social i
+{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #777;
+    color:#fff;
+    cursor: pointer;
+    margin: 2px;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.our-team .person p
+{
+    line-height: 1.5;
+}
+
+/*********************************  Contact  ***************************************/
+
+
+.contact
+{
+    background: url("../images/testi.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 290px 0 ;
+    position: relative;
+
+}
+
+.contact h2
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin:70px 0 30px;
+}
+
+.contact p
+{
+    margin-bottom: 60px;
+    line-height:1.7;
+}
+
+.contact form
+{
+    width:800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contact form input
+{
+    width: 47% ;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    height:40px;
+    margin-bottom: 25px;
+    
+}
+
+.contact form input[type = "email"]
+{
+    float: left;
+}
+
+.contact form input[type = "text"]
+{
+    float: right;
+}
+
+.contact form textarea
+{
+    
+    width: 100% ;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    height:130px;
+    margin-bottom: 25px;
+
+}
+
+.contact form button
+{
+    width:150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f7600e;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact form .social
+{
+    float: right;
+}
+
+.contact form .social i
+{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    padding: 6px;
+    border-radius: 50%;
+    color:#fff;
+    cursor: pointer;
+    margin-left: 12px;
+    margin-top: 10px;
+   
+}
+
+.contact form .icofont-facebook
+{
+    background-color: #3b5998;
+}
+.contact form .icofont-twitter
+{
+    background-color: #1da1f2;
+}
+.contact form .icofont-google-plus
+{
+    background-color: #dd4b39;
+}
+.contact form .icofont-behance
+{
+    background-color: #1769ff;
+}
+.contact form .icofont-youtube
+{
+    background-color: #ff0000;
+}
+
+
+
+/***************************** Footer   ************************************/
+
+.footer
+{
+    overflow: hidden;
+    color:rgb(231, 231, 231);
+    background-color: #3b434c;
+    padding: 35px 0;
+}
+
+.footer .copy
+{
+    float: left;
+}
+
+.footer .made-by
+{
+    float: right;
+}
+
+.footer .made-by a
+{
+    text-decoration: none;
+    color:#f7600e;
+    font-size: 18px;
+    transition: all ease-in-out 400ms;
+
+}
+
+.footer .made-by a:hover
+{
+    color:rgb(231, 231, 231);
+}
+
+/*******************************************************************************/
+
