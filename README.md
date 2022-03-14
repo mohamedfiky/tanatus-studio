@@ -1,6 +1,6 @@
 # Tanatus Studio
 
-### A responsive design company
+### A responsive website for a design company
 
 https://mohamedfiky.github.io/tanatus-studio/
 
