@@ -2,7 +2,7 @@
 
 ### A responsive website for a design company
 
-https://mohamedfiky.github.io/tanatus-studio/
+##### Live preview: https://mohamedfiky.github.io/tanatus-studio/
 
 Tools used:
 
