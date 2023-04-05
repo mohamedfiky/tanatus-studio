@@ -361,9 +361,9 @@ html{
 
 
 
-/************************************  Subscripe  *************************************/
+/************************************  Subscribe  *************************************/
 
-.subscripe
+.subscribe
 {
     background: url("../images/testi.jpg");
     background-size: cover;
@@ -372,14 +372,14 @@ html{
 
 }
 
-.subscripe form{
+.subscribe form{
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.subscripe form input
+.subscribe form input
 {
     width: 400px ;
     padding: 8px;
@@ -389,7 +389,7 @@ html{
     outline:none;
 }
 
-.subscripe form button
+.subscribe form button
 {
     width:150px;
     height: 40px;
@@ -401,7 +401,7 @@ html{
     cursor: pointer;
 }
 
-.subscripe form button:hover
+.subscribe form button:hover
 {
     color: #f7600e;
     background-color: #fff;
@@ -411,15 +411,15 @@ html{
 
 @media (max-width:450px){
    
-    .subscripe form{
+    .subscribe form{
         flex-direction: column;
     }
 
-    .subscripe form input{
+    .subscribe form input{
         width:90%
     }
 
-    .subscripe form button{
+    .subscribe form button{
         margin: 24px 0 0 0 ;
     }
    
